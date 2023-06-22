@@ -9,8 +9,8 @@ void byteYazdirma(const std::string& dosyaYolu) {
         return;
     }
 
-    char bytes[10];
-    file.read(bytes, 10);
+    char bytes[2];
+    file.read(bytes, 2);
     file.close();
 
     std::cout << "Dosya adi: " << dosyaYolu;
